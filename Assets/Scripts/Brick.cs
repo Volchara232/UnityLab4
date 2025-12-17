@@ -1,19 +1,31 @@
 using UnityEngine;
-
-public class Brick : MonoBehaviour
+namespace Models
 {
-    public int hp = 1;
-
-    
-    void OnCollisionEnter2D(Collision2D collision)
+    public class Brick : MonoBehaviour
     {
-        Debug.Log("ПОПАДАНИЕ ПО КИРПИЧУ!");
-        hp--;
-            
-        if (hp <= 0)
+        [SerializeField] private int HP = 1;
+        [SerializeField] private LootSpawner lootSpawner;
+        
+        private void Start()
         {
-            Destroy(gameObject);
-            Debug.Log("Кирпич сломан!");
-        }   
+            // Если не назначили через инспектор - ищем на этом же объекте
+            if (lootSpawner == null)
+            {
+                lootSpawner = GetComponent<LootSpawner>();
+            }
+        }
+        public void OnCollisionEnter2D(Collision2D collision)
+        {
+            Debug.Log("ПОПАДАНИЕ ПО КИРПИЧУ!");
+            HP--;
+            
+            if (HP <= 0)
+            {
+
+                lootSpawner.TrySpawnLoot(transform.position);
+                Destroy(gameObject);
+                Debug.Log("Кирпич сломан!");
+            }   
+        }
     }
 }

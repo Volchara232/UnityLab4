@@ -1,11 +1,12 @@
 using UnityEngine;
-
-public class Platform : MonoBehaviour
+namespace Models
 {
+    public class Platform : MonoBehaviour
+    {
 
-    public float speed = 10f;
-    public bool clampToScreen = true;
-    public float xLimit = 7f; 
+    private float speed = 10f;
+    private bool clampToScreen = true;
+    private float xLimit = 7f; 
     
     private Camera mainCamera;
     
@@ -25,5 +26,6 @@ public class Platform : MonoBehaviour
         }
 
         transform.position = Vector3.Lerp(transform.position, targetPosition, speed * Time.deltaTime);
+    }
     }
 }

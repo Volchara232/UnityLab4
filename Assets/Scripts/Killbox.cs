@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class TestKillbox : MonoBehaviour
+public class Killbox : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D other)
     {
