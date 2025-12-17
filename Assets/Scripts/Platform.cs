@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PlatformMouseControl : MonoBehaviour
+public class Platform : MonoBehaviour
 {
 
     public float speed = 10f;

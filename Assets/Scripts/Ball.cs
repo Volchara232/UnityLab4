@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class BallController : MonoBehaviour
+public class Ball : MonoBehaviour
 {
     public float speed = 5f;
     public float maxRandomAngle = 5f; 

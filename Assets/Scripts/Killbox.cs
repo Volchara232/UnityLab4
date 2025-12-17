@@ -6,6 +6,5 @@ public class TestKillbox : MonoBehaviour
     {
         Debug.Log($"В триггер вошел: {other.name}");
         Destroy(other.gameObject);
-        
     }
 }
