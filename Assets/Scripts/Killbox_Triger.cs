@@ -6,7 +6,7 @@ public class TestKillbox : MonoBehaviour
     {
         Debug.Log($"В триггер вошел: {other.name}");
         
-        if (other.name.Contains("ball") || other.name.Contains("Ball"))
+        if (other.name.Contains("Ball"))
         {
             Debug.Log("МЯЧ УПАЛ! УНИЧТОЖАЕМ...");
             Destroy(other.gameObject);
