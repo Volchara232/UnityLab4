@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\1\\\u0430\u0440\u043A\u0430\u043D\u043E\u0438\u0436\\Assets\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\1\\\u0430\u0440\u043A\u0430\u043D\u043E\u0438\u0436\\Assets\\Scripts\\Storage\\SaveManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Scripts\\Storage\\SaveManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\1\\\u0430\u0440\u043A\u0430\u043D\u043E\u0438\u0436\\Assets\\Scripts\\Storage\\Save.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Scripts\\Storage\\Save.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SaveManager.cs",
+              "DocumentMoniker": "C:\\Users\\1\\\u0430\u0440\u043A\u0430\u043D\u043E\u0438\u0436\\Assets\\Scripts\\Storage\\SaveManager.cs",
+              "RelativeDocumentMoniker": "Scripts\\Storage\\SaveManager.cs",
+              "ToolTip": "C:\\Users\\1\\\u0430\u0440\u043A\u0430\u043D\u043E\u0438\u0436\\Assets\\Scripts\\Storage\\SaveManager.cs",
+              "RelativeToolTip": "Scripts\\Storage\\SaveManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T02:00:46.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Save.cs",
+              "DocumentMoniker": "C:\\Users\\1\\\u0430\u0440\u043A\u0430\u043D\u043E\u0438\u0436\\Assets\\Scripts\\Storage\\Save.cs",
+              "RelativeDocumentMoniker": "Scripts\\Storage\\Save.cs",
+              "ToolTip": "C:\\Users\\1\\\u0430\u0440\u043A\u0430\u043D\u043E\u0438\u0436\\Assets\\Scripts\\Storage\\Save.cs",
+              "RelativeToolTip": "Scripts\\Storage\\Save.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T02:00:40.139Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+# ============ Unity ============
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]user[Ss]ettings/
+/[Mm]emory[Cc]aptures/
+
+# Asset meta files should not be ignored
+![Aa]ssets/**/*.meta
+
+# Project settings should not be ignored entirely
+![Pp]roject[Ss]ettings/*.asset
+![Pp]roject[Ss]ettings/*.asset.meta
+
+# ============ Visual Studio / Rider ============
+.vs/
+.idea/
+*.sln
+*.csproj
+*.unityproj
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+
+# ============ OS ============
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+[Tt]humbs.db
+
+# ============ Builds ============
+[Bb]uild/
+[Bb]uilds/
+[Ll]ocal[Cc]ache/
+[Aa]ssets/[Aa]sset[Ss]tore[Tt]ools*
+
+# ============ Packages ============
+/[Pp]ackages/
+
+# Keep this file, it's managed by Unity Package Manager
+!/[Pp]ackages/manifest.json
+!/[Pp]ackages/packages-lock.json
